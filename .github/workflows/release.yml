@@ -6,6 +6,9 @@ name: Release
       - main
       - next
       - beta
+
+permissions: write-all
+
 jobs:
   release:
     name: release
