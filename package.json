@@ -1,0 +1,25 @@
+{
+  "name": "github-discussion-toc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generate a table of contents for a GitHub discussion",
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "octokit": "^3.1.0"
+  },
+  "bin": {
+    "github-discussion-toc": "bin/github-discussion-toc.js"
+  },
+  "release": {
+    "branches": [
+      "+([0-9]).x",
+      "main",
+      "next",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
+  }
+}
