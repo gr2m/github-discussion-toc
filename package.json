@@ -5,6 +5,7 @@
   "description": "Generate a table of contents for a GitHub discussion",
   "author": "Gregor Martynus (https://github.com/gr2m)",
   "license": "ISC",
+  "repository": "github:gr2m/github-discussion-toc",
   "dependencies": {
     "octokit": "^3.1.0"
   },
