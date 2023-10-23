@@ -29,4 +29,4 @@ if (!owner || !repo || !discussionNumber) {
   process.exit(1);
 }
 
-main(octokit, owner, repo, discussionNumber).catch(console.log);
+main(octokit, owner, repo, Number(discussionNumber)).catch(console.log);
